@@ -12,6 +12,4 @@ public interface CountryRepository extends JpaRepository<Country, Long> {
     boolean existsCountryByCode(String code);
     Optional<Country> findCountryByCode(String code);
     boolean existsCountryById(Long id);
-    @Query("SELECT c.name FROM Country c where c.id = :id")
-    String findNameById(Long id);
 }

@@ -1,10 +1,8 @@
 package com.softtechbootcamp.case2.repository;
 
-import com.softtechbootcamp.case2.dto.address.AddressResponseDto;
 import com.softtechbootcamp.case2.dto.street.AddressQueryDto;
 import com.softtechbootcamp.case2.model.Address;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;

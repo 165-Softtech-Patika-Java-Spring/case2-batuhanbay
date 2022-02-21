@@ -1,4 +1,4 @@
-package com.softtechbootcamp.case2.dto.street;
+package com.softtechbootcamp.case2.dto.address;
 
 public interface AddressQueryDto {
     public String getBuildingNo();

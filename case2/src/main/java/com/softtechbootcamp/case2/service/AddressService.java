@@ -2,7 +2,7 @@ package com.softtechbootcamp.case2.service;
 
 import com.softtechbootcamp.case2.dto.address.AddressDto;
 import com.softtechbootcamp.case2.dto.address.AddressResponseDto;
-import com.softtechbootcamp.case2.dto.street.AddressQueryDto;
+import com.softtechbootcamp.case2.dto.address.AddressQueryDto;
 import com.softtechbootcamp.case2.enums.ErrorMessage;
 import com.softtechbootcamp.case2.exceptions.EntityNotFoundException;
 import com.softtechbootcamp.case2.mapper.AddressMapper;

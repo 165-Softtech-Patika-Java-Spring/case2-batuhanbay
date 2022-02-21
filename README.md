@@ -30,6 +30,12 @@ Bir adet controller yazınız(Tek controller yeterli). Bu controller içerisinde
 - Address entitysi hariç diğer entitylerin servislerinde entity kullanabilirsiniz. Yani metot parametresi için dto, return için başka bir dto kullanmanıza gerek yok.  
 - Address kaydeden dönen vs yerlerde mapper ya da converterlar kullanarak DTO ile veri akışını sağlayınız.
 
-### Test Verileri
+### Test Verileri:
 - @GeneratedValue(strategy = GenerationType.IDENTITY) anatasyonu kullanıldığı için ve save operasyonunda id yönetimini bu anatasyona verildiğinden swagger da post metodları
 default test verileri id = 0 ile Not Found exception alınacaktır. Test için id içeren metodlar için id=1 deneyiniz.
+
+### Swagger URL:
+- http://localhost:8080/swagger-ui/index.html#/
+
+### H2 Database URL:
+- http://localhost:8080/h2-console/login.do?jsessionid=c0ff661fe450a5125962cf6eefbb0b10

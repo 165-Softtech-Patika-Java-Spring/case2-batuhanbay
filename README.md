@@ -29,3 +29,7 @@ Bir adet controller yazınız(Tek controller yeterli). Bu controller içerisinde
 ### NOT:  
 - Address entitysi hariç diğer entitylerin servislerinde entity kullanabilirsiniz. Yani metot parametresi için dto, return için başka bir dto kullanmanıza gerek yok.  
 - Address kaydeden dönen vs yerlerde mapper ya da converterlar kullanarak DTO ile veri akışını sağlayınız.
+
+### Test Verileri
+- @GeneratedValue(strategy = GenerationType.IDENTITY) anatasyonu kullanıldığı için ve save operasyonunda id yönetimini bu anatasyona verildiğinden swagger da post metodları
+default test verileri id = 0 ile Not Found exception alınacaktır. Test için id içeren metodlar için id=1 deneyiniz.
